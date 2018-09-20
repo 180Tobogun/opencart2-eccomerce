@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <code>ECC v0.1</code>
+    <name>eCommerceConnect</name>
+    <version>0.7</version>
+    <author>UPC</author>
+    <link>https://upc.ua/</link>
+    <file path="catalog/controller/common/home.php">
+        <operation>
+            <search><![CDATA[
+            Search this
+            ]]></search>
+            <add position="replace"><![CDATA[
+            replace with this
+            ]]></add>
+        </operation>
+    </file>  
+</modification>
